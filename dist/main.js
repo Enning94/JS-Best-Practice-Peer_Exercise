@@ -86,7 +86,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _localStorage_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./localStorage.js */ \"./src/modules/localStorage.js\");\n\n\nconst editTodo = (e) => {\n  const item = e.target;\n  if (item.classList[0] === 'inp') {\n    const todo = item.parentElement;\n    (0,_localStorage_js__WEBPACK_IMPORTED_MODULE_0__.editLocalTodos)(todo);\n  }\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (editTodo);\n\n//# sourceURL=webpack://webpack-demo/./src/modules/editTask.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _localStorage_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./localStorage.js */ \"./src/modules/localStorage.js\");\n\n\nconst editTodo = (e) => {\n  const item = e.target;\n  if (item.classList[0] === 'input') {\n    const todo = item.parentElement;\n    (0,_localStorage_js__WEBPACK_IMPORTED_MODULE_0__.editLocalTodos)(todo);\n  }\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (editTodo);\n\n//# sourceURL=webpack://webpack-demo/./src/modules/editTask.js?");
 
 /***/ }),
 
